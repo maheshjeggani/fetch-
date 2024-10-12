@@ -19,5 +19,5 @@ app.get('/subtract-count', (req, res) => {
 
 // Start the server and listen on all available interfaces (0.0.0.0)
 app.listen(port, '0.0.0.0', () => {
-    console.log(`Server running and accessible on http://13.202.69.199:${port}`);
+    console.log(`Server running and accessible on http://13.202.127.159:${port}`);
 });
